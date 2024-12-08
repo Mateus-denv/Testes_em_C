@@ -10,7 +10,7 @@ void questoes(VariaveisGlobais *vrg);
 FILE *pArquivo;
 
 int main(){
-    pArquivo = fopen ("TreinandoArquivoEmC.txt", "w");
+    pArquivo = fopen ("TreinandoArquivosEmC.txt", "a+");
     if(pArquivo == NULL){
         printf("Nao foi possivel abrir o arquivo");
         exit(1);
